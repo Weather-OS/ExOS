@@ -29,3 +29,10 @@ A Hardware-based Operating system where you have kernel access to every hardware
 8. Add the ISO image
 9. run the virtual machine.
 
+## ExOs Operating System usage.
+ExOS is mostly editkernel based operating system where you can add custom commands if you have a Brief and extended C Knowledge.
+
+  #### Commonly used Commands:
+  - PRINT : Print a word
+  - SCRIPT : Execute a .S file ("default hello.s")
+  - EDIT : Edit a Shell/Kernel File.
