@@ -1,5 +1,4 @@
 as --32 boot.s -o boot.o
-gcc -m32 -c ata.c -o ata.o -std=gnu99 -ffreestanding -O1 -Wall -Wextra
 gcc -m32 -c kernel.c -o kernel.o -std=gnu99 -ffreestanding -O1 -Wall -Wextra
 gcc -m32 -c utils.c -o utils.o -std=gnu99 -ffreestanding -O1 -Wall -Wextra
 gcc -m32 -c char.c -o char.o -std=gnu99 -ffreestanding -O1 -Wall -Wextra
