@@ -36,3 +36,4 @@ ExOS is mostly editkernel based operating system where you can add custom comman
   - PRINT : Print a word
   - SCRIPT : Execute a .S file ("default hello.s")
   - EDIT : Edit a Shell/Kernel File.
+  - ERASE : To clear the shell
