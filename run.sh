@@ -9,5 +9,5 @@ grub-file --is-x86-multiboot MyOS.bin
 mkdir -p isodir/boot/grub
 cp MyOS.bin isodir/boot/MyOS.bin
 cp grub.cfg isodir/boot/grub/grub.cfg
-grub-mkrescue -o MyOS.iso isodir
-wineconsole cmd
+grub-mkrescue -o ExOS.iso isodir
+qemu ExOS.iso
